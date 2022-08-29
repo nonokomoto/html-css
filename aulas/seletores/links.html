@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(3, 26, 18);
+        }
+        a:visited{
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a:active{
+            color: aquamarine;
+            font-weight: lighter;
+            font-size: 2em;
+        }
+        a::after{
+            content: "  Io";
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://bitcoinparainiciantes.pt" target="_blank" rel="extern">Meu site bitcoin</a></li>
+        <li><a href="https://bitcoin.org" target="_blank" rel="extern">Site official bitcoin</a></li>
+        <li><a href="https://21bitcoin.app/" target="_blank" rel="extern">Bitcoin only exchange 21Bitcoin</a></li>
+        <li><a href="https://binance.com" target="_blank">Binance</a></li>
+    </ul>
+</body>
+</html>

@@ -3,4 +3,4 @@
 
 Estou a aprender sobre HTML CSS e GitHub
 
-<a haref="httls://nonokomoto.githubd.io/html-css/projeto/android.html/" targer="_black" rel="externo"> Executar o projeto</a>
+<a haref="httls://nonokomoto.githubd.io/html-css/projeto/android.html/" target="_black" rel="externo"> Executar o projeto</a>

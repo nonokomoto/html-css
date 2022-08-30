@@ -3,4 +3,4 @@
 
 Estou a aprender sobre HTML CSS e GitHub
 
-<a href="httls://nonokomoto.githubd.io/html-css/projeto/android.html/" target="_black" rel="externo"> Executar o projeto</a>
+<a href="https://nonokomoto.githubd.io/html-css/projeto/android.html/" target="_blanck" rel="external"> Executar o projeto</a>

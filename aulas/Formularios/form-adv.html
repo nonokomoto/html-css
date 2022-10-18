@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <meta name="autor" content="Forms">
+    <meta name="description" content="Types of Forms">
+    <!-- Open Graph Protocol (For share on social media)--> 
+    <meta property="og:title" content="A brief description">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mysite.com">
+    <meta property="og:description" content="A brief description">
+    <meta property="og:image" content="image.png">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">    
+    <link rel="icon" href="favicon.svg" type="image/svg+xml-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-png">
+
+    <!-- Include CSS files -->
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    
+    <header>
+        <img src="img/litle.png" alt="Litle lemon logo">
+    </header>
+    <nav>
+       <a href="#">Home</a>
+       <a href="#">Location</a>
+       <a href="#">Blog</a>
+    </nav>
+    <main>
+        <h1>Book a table</h1>
+        <form action="" method="post">
+            <div id="booking_date">
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div id="booking_people">
+                <label for="booking_people">Number of Peolple</label>
+                <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4" 
+                oninput="this.nextElementSibling.value = this.value">
+                <output>4</output>
+            </div>
+            <div id="booking_location">
+                <label for="booking_location">Location</label>
+                <input name="booking_location" id="booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Esh-Sur-Alzette"></option>
+                    <option value="Luxemburg Ville"></option>
+                </datalist>
+            <div id="botton">
+                <input type="submit" value="Book Table">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Copiright Lettle Lemon</p>
+    </footer>
+
+    <!-- Include Javascript files here -->
+    <script src="javascript/script.js"></script>
+</body>
+</html>

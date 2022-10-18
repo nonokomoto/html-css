@@ -1,3 +1,22 @@
 input:focus:invalid{
     border: 2px solid red;
 }
+
+
+
+#botton{
+    padding: 3px;
+    margin: 10px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.479);
+    text-align: center;
+}
+h1{
+    color: rgba(145, 8, 8, 0.447);
+}
+
+img{
+    width: 300px;
+}
